@@ -1,0 +1,1 @@
+tail -F anything_1.txt | grep --line-buffered 17: | cat >> texample2.txt | tail -F texample2.txt
